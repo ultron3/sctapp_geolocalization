@@ -19,7 +19,7 @@ function getLocation() {
           const speed = position.coords.speed; // ottiene la velocità in metri al secondo, se disponibile
   
           console.log(`Latitudine: ${lat}`);
-          console.log(`Longitudine: ${lng}`);
+          console.log(`Longitudine: ${lng}`); 
           console.log(`Accuratezza: ${accuracy} metri`);
           console.log(`Altitudine: ${altitude} metri`);
           console.log(`Accuratezza altitudine: ${altitudeAccuracy} metri`);
